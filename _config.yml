@@ -13,7 +13,7 @@ title                    : "Adrian Wong"
 title_separator          : "-"
 name                     : "Adrian Wong"
 description              : "Place of Growth"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://adriankhwong.com
 baseurl                  : /
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/IMG_6486.JPG"
