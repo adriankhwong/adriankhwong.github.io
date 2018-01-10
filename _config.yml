@@ -12,9 +12,9 @@ locale                   : "en-US"
 title                    : "Adrian Wong"
 title_separator          : "-"
 name                     : "Adrian Wong"
-description              : "Place of Growth"
+description              : "Place of Growth"  # improving SEO
 url                      : https://adriankhwong.com
-baseurl                  : /
+baseurl                  : /docs/
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/IMG_6486.JPG
 # breadcrumbs            : false # true, false (default)
@@ -103,7 +103,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : https://www.linkedin.com/in/adriankhwong
+  linkedin         : adriankhwong
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
