@@ -56,7 +56,16 @@ atom_feed:
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 
+#### pages and posts Settings
 include: ["_pages"]
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
 
 defaults:
   # _posts
@@ -64,7 +73,14 @@ defaults:
       path: ""
       type: posts
     values:
+      layout: single
+      author_profile: true
+      read_time: true
       comments: true
+      share: true
+      related: true
+
+
 
 # SEO Related
 google_site_verification :

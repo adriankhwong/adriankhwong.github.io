@@ -1,5 +1,5 @@
 ---
-layout: post-index
+layout: single
 title: About
 permalink: /about/
 description: "About me"
