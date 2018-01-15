@@ -16,13 +16,13 @@ description              : "Place of Growth"
 url                      : https://adriankhwong.com
 baseurl                  : /
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : /assets/images/IMG_6486.JPG
+teaser                   : # /assets/images/IMG_6486.JPG
 
 breadcrumbs              : true # true, false (default)
 
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : disqus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : adriankhwong-com
   discourse:
@@ -30,7 +30,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
+    num_posts            : 5 # (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
@@ -56,30 +56,9 @@ atom_feed:
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 
-#### pages and posts Settings
-include: ["_pages"]
 
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-
+#### home page
+paginate_path: /blog/page:num
 
 
 # SEO Related
@@ -129,7 +108,7 @@ author:
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : adriankhwong26
   lastfm           :
   linkedin         : adriankhwong
   pinterest        :
@@ -148,6 +127,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -156,7 +136,7 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
+  - assets/js/pluginss
   - assets/js/_main.js
   - assets/js/vendor
   - Capfile
@@ -278,6 +258,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single

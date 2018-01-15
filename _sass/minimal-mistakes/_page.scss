@@ -63,7 +63,7 @@
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-size: $type-size-6;
 }
 
 .page__content {
@@ -75,7 +75,7 @@
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.75em;
   }
 
   /* paragraph indents */
@@ -183,7 +183,8 @@
 
 .page__hero-image {
   width: 100%;
-  height: auto;
+  height: 50%;
+  //height: auto;
   -ms-interpolation-mode: bicubic;
 }
 
