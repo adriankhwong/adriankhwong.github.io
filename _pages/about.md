@@ -5,14 +5,12 @@ permalink: /about/
 description: "About me"
 
 author_profile: true
-category: views
+category: personal
 comments: false  
-tags: [about]
 
 header:
-  overlay_color: "#FFF"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/about_header.png
+  overlay_color: "#333"
+  overlay_filter: "0.3"
 
 ---
 
@@ -36,4 +34,4 @@ Find out how I have been living my mission statement in my [resume](/resume) as 
 8.	Almost all my travel adventures to the US, Europe, and Asia have been fully or mostly subsidize due to work and volunteering
 
 
-![Image](http://adriankhwong.com/images/collage.PNG)
+![Image](http://adriankhwong.com/assets/images/collage.PNG)
