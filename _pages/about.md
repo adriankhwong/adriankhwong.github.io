@@ -12,9 +12,7 @@ tags: [about]
 header:
   overlay_color: "#FFF"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/IMG_5290.JPG
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+  overlay_image: /assets/images/about_header.png
 
 ---
 
