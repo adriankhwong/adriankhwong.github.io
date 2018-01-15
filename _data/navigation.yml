@@ -2,12 +2,12 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Now"
+    url: /now/
   - title: "Blog"
     url: /blog/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "Resume"
+    url: /resume/
 
 # sidebar navigation list sample
 sidebar-sample:

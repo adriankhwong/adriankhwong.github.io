@@ -93,8 +93,8 @@ analytics:
 author:
   name             : "Adrian Wong"
   avatar           : /assets/images/AdrianHax.jpg
-  bio              : "Engineer. Traveller. Food Enthusiast"
-  location         : Vancouver, Canada
+  bio              : "Engineer. Traveler. Food Enthusiast."
+  location         : # Vancouver, Canada
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"

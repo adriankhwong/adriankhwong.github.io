@@ -11,7 +11,6 @@ comments: false
 header:
   overlay_color: "#333"
   overlay_filter: "0.3"
-
 ---
 
 Hello there!
@@ -33,5 +32,4 @@ Find out how I have been living my mission statement in my [resume](/resume) as 
 7.	I started doing yoga at 6am in my bedroom during my internship in Japan
 8.	Almost all my travel adventures to the US, Europe, and Asia have been fully or mostly subsidize due to work and volunteering
 
-
-![Image](http://adriankhwong.com/assets/images/collage.PNG)
+{% include figure image_path="/assets/images/collage.PNG" alt="collage" %}
