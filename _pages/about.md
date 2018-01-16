@@ -1,6 +1,6 @@
 ---
 layout: single
-title: About
+title: About Adrian
 permalink: /about/
 description: "About me"
 
@@ -9,8 +9,7 @@ category: personal
 comments: false  
 
 header:
-  overlay_color: "#333"
-  overlay_filter: "0.3"
+  overlay_color: "#0092ca"
 
 sidebar:
   nav: "categories"
@@ -18,21 +17,26 @@ sidebar:
 
 Hello there!
 
-I have ideas and thoughts that seems a bit big to be in a Facebook post. This is one of many reasons why I always wanted to start a blog. In my blog, I intend to share my positive and negative life experiences, personal/career/leadership development, travel adventures, food recommendations/reviews, and random life tidbits. I can flow through life from one moment to the next [meaning I “you only live once” (YOLO) a lot]. My mission in life is
+I spent the first 18 years in Nanaimo on Vancouver Island, Canada. I went to the University of British Columbia for Biomedical Engineering, while being part of a few student organizations.  Now I live in Asia somewhere. I enjoy deep conversations and tasty food.
 
-__*to work, volunteer, travel and eat across the globe to grow myself and others around me*__
+My life has been a wonderful roller coaster ride full of ups and downs. With every fall, there has always been a place for me to climb back up. In my blog, I will share my life experiences, personal/career/leadership development, travel adventures, food recommendations/reviews, and random life tidbits. My mission in life is
 
-Find out how I have been living my mission statement in my [resume](/resume) as well as take a look at what I am currently doing [now](/now).
+{% capture mission %}
+#### Work, volunteer, travel and eat across the globe to grow myself and people around me.
+{% endcapture %}
+
+<div class="notice">{{ mission | markdownify }}</div>
+
+[//]: <> (Find out how I have been living my mission statement in my [resume](/resume) as well as take a look at what I am currently doing [now](/now).)
+
 
 **Fun facts**
 
-1.	I can play the trumpet, though I’m quite rusty now
-2.	I watched Hong Kong dramas for at least 4 to 5 hours a day for the first 18 years of my life
-3.	I play farming games like Minions Paradise, The Simpsons Tap Out, and Futurama Worlds of Tomorrow. I play a lot and collect resources efficiently
-4.	I dressed up in a maid outfit for an Anime Convention
-5.	I participated in the a 5km obstacle race called SPARTAN Sprint Race in June 2015
-6.	I do thorough research on places to eat before going to those places
-7.	I started doing yoga at 6am in my bedroom during my internship in Japan
-8.	Almost all my travel adventures to the US, Europe, and Asia have been fully or mostly subsidize due to work and volunteering
+1.    I played the trumpet throughout high school, but I’m quite rusty now
+2.    I rarely exercised until I did yoga at 6 am in my bedroom during my internship in Japan in June 2011
+3.    I dressed up in a maid outfit for an Anime Convention
+4.    I participated in a 5km obstacle race called SPARTAN Sprint Race in June 2015
+5.    I watched Hong Kong dramas for at least 4 to 5 hours a day for the first 18 years of my life
+6.    Most of my travel adventures across North America, Europe, and Asia have been fully or mostly subsidized due to work and volunteering
 
 {% include figure image_path="/assets/images/collage.PNG" alt="collage" %}

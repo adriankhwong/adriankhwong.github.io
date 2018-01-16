@@ -8,8 +8,7 @@ author_profile: true
 category: personal
 
 header:
-  overlay_color: "#333"
-  overlay_filter: "0.3"
+  overlay_color: "#09C"
 
 sidebar:
   nav: "categories"
