@@ -11,6 +11,9 @@ comments: false
 header:
   overlay_color: "#333"
   overlay_filter: "0.3"
+
+sidebar:
+  nav: "categories"
 ---
 
 Hello there!

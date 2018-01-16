@@ -18,7 +18,7 @@ baseurl                  : /
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # /assets/images/IMG_6486.JPG
 
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 
 words_per_minute         : 200
 comments:
@@ -45,7 +45,7 @@ staticman:
     email                : # "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type               : "date"
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
@@ -93,7 +93,7 @@ analytics:
 author:
   name             : "Adrian Wong"
   avatar           : /assets/images/AdrianHax.jpg
-  bio              : "Engineer. Traveler. Food Enthusiast."
+  bio              : "Engineer. Traveler. Foodie."
   location         : # Vancouver, Canada
   email            :
   uri              :
@@ -201,6 +201,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -228,16 +229,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression

@@ -1,26 +1,23 @@
 ---
 layout: archive
-paginate: 5
 
 title: Blog
 permalink: /blog/
-description: "Blogging on Career, Engineering, Machine Learning, Volunteer, Food, travel"
+description: "Blogging on Career, Engineering, Machine Learning, Volunteer, Travels, Food"
 author_profile: true
-
-author_profile: true
-category: views
-comments: false
-tags: [about]
 
 header:
   overlay_color: "#FFF"
   overlay_filter: "0.5"
   overlay_image: /assets/images/IMG_5290.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+excerpt: "Blogging on Career, Engineering, Machine Learning, Volunteer, Travels, Food"
 
+sidebar:
+  nav: "categories"
 
 ---
+
 <!--
 <div class="posts">
   {% for post in paginator.posts %}
@@ -41,7 +38,6 @@ excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef 
 
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
 {% for year in postsByYear %}
-  <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
   {% for post in year.items %}
     {% include archive-single.html %}
   {% endfor %}
@@ -65,11 +61,3 @@ excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef 
   {% endif %}
 </div>
 -->
-
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
-
-<iframe src="/files/AdrianWongCV.pdf" width="750" height="700"></iframe>

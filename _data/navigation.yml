@@ -9,6 +9,21 @@ main:
   - title: "Resume"
     url: /resume/
 
+categories:
+  - title: "Blog categories"
+    url: /categories/
+    children:
+      - title: "Personal"
+        url: /categories/#personal
+      - title: "Growth"
+        url: /categories/#growth
+      - title: "Volunteer"
+        url: /categories/#volunteer
+      - title: "Travel"
+        url: /categories/#travel
+      - title: "Food"
+        url: /categories/#food
+
 # sidebar navigation list sample
 sidebar-sample:
   - title: "Parent Page A"
