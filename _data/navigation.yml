@@ -13,16 +13,17 @@ categories:
   - title: "Blog categories"
     url: /categories/
     children:
-      - title: "Personal"
-        url: /categories/#personal
-      - title: "Growth"
-        url: /categories/#growth
-      - title: "Volunteer"
-        url: /categories/#volunteer
-      - title: "Travel"
-        url: /categories/#travel
       - title: "Food"
         url: /categories/#food
+      - title: "Growth"
+        url: /categories/#growth
+      - title: "Personal"
+        url: /categories/#personal
+      - title: "Travel"
+        url: /categories/#travel
+      - title: "Volunteer"
+        url: /categories/#volunteer
+
 
 # sidebar navigation list sample
 sidebar-sample:
