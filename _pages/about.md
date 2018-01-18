@@ -19,7 +19,7 @@ Hello there!
 
 I spent the first 18 years in Nanaimo on Vancouver Island, Canada. I went to the University of British Columbia for Biomedical Engineering, while being part of a few student organizations.  Now I live in Asia somewhere. I enjoy deep conversations and tasty food.
 
-My life has been a wonderful roller coaster ride full of ups and downs. With every fall, there has always been a place for me to climb back up. In my blog, I will share my life experiences, personal/career/leadership development, travel adventures, food recommendations/reviews, and random life tidbits. My mission in life is
+My life has been a wonderful roller coaster ride full of ups and downs. With every fall, there has always been a place for me to climb back up. In my blog, I will share my life experiences, personal/career/leadership development, travel adventures, food recommendations/reviews, and random life tidbits. My personal manifesto is
 
 {% capture mission %}
 #### Work, volunteer, travel and eat across the globe to grow myself and people around me.
